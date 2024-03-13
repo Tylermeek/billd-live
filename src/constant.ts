@@ -22,7 +22,7 @@ export const appBuildInfo =
 
 export const WEBSOCKET_URL =
   process.env.NODE_ENV === 'development'
-    ? `ws://192.168.1.102:4300` // `ws://localhost:4300`
+    ? `ws://localhost:4300` // `ws://localhost:4300`
     : `wss://srs-pull.${prodDomain}`;
 
 // export const WEBSOCKET_URL =
